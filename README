@@ -1,0 +1,92 @@
+
+
+
+/***
+
+
+Welcome to the amazing world of Pizza Town. The world's first pizza rat open world video game. 
+Get ready to fight your way through crowded subways, as you race to collect all the pizza 
+ingredients you can get your hands on. But watch out for urgent meeting notification and other
+dangers that lie in the city... If you're ever in trouble just hit up old uncle Xeno. He's 
+always got an ear and a slice!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Scratch Work
+------------------------------------
+
+
+Classes
+
+A room,
+A field
+A pizza topping
+an area
+a character
+the hero
+dialogue
+
+
+Groups of library functions... 
+
+Types....
+
+
+Functioanl and core classes. Using funcation class work...
+
+
+Level 1 NY 57th street
+xenos pizza
+Run through the cars to get to the office before the meeting...
+defeat the stree elmos.
+
+
+mayb ecreator factor functions for making areas or actions. then you just call apply functions that take the structs output by 
+the area or action... just dumb types.... and you feed them to the process world action function which will steal a frame and perform the change... but the time moves
+sepearetely all actions can just be async...
+all actions processed asap.. and frames keep chugging. only the hero movement should be part of game loop, 
+
+
+so there is 
+
+
+There should be a game asset library similar to unrealls
+
+Automotive.Carpet
+Automatoic.silver..
+
+createDialogue() : Dialogue
+
+playDialogue(): ACtion
+
+createArea() : Area
+createCharacter(deets, game): Character  //each charcacter will have an async light thread that will dump
+                                            //characterActions onto the game loop but then move on...
+
+createCharacterAction(deets): CharacterACtion                                           
+
+spawnCharacter(Character) : Action
+
+loadArea(Area) : Action
+
+processWorldACtion(action) : void
+
+
+game class{
+    popAnACtionIfTimeAllows()
+    popAnAction()
+    loop()
+}
+
+***/
